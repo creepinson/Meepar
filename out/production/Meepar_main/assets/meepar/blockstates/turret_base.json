@@ -1,0 +1,14 @@
+{
+  "variants": {
+
+    "facing=east": { "model": "meepar:turret_base", "y": 90 },
+
+    "facing=north": { "model": "meepar:turret_base" },
+
+    "facing=south": { "model": "meepar:turret_base", "y": 180 },
+
+    "facing=west": { "model": "meepar:turret_base", "y": 270 }
+
+  }
+
+}

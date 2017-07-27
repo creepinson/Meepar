@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Meepar.iml" filepath="$PROJECT_DIR$/.idea/modules/Meepar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Meepar_api.iml" filepath="$PROJECT_DIR$/.idea/modules/Meepar_api.iml" group="Meepar" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Meepar_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Meepar_main.iml" group="Meepar" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Meepar_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Meepar_test.iml" group="Meepar" />
+    </modules>
+  </component>
+</project>

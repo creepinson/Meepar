@@ -1,0 +1,24 @@
+{
+	"parent": "block/cube_all",
+	"__comment": "Designed by Creepinson with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "meepar:blocks/particle",
+		"mostsides": "meepar:blocks/mostsides",
+		"front": "meepar:blocks/front"
+	},
+	"elements": [
+		{
+			"__comment": "cube",
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#mostsides" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#mostsides" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#front" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#mostsides" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#mostsides" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#mostsides" }
+			}
+		}
+	]
+}

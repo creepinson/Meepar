@@ -1,0 +1,6 @@
+{
+  "parent": "meepar:item/standard_item",
+  "textures": {
+    "layer0": "meepar:items/reinforced_stick_tier1"
+  }
+}

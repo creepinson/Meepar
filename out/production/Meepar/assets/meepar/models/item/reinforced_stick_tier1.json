@@ -1,0 +1,6 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "layer0": "meepar:items/reinforced_stick_tier1"
+  }
+}
