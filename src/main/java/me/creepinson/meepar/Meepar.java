@@ -50,9 +50,9 @@ public class Meepar {
         ModBlocks.init();
         ModBlocks.register();
 
-
+        proxy.registerModelBakeryStuff();
         proxy.registerRenders();
-        
+
     }
 
     @EventHandler
