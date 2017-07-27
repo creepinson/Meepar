@@ -18,7 +18,6 @@ public class ItemReinforcedStick extends Item {
         this.setRegistryName(new ResourceLocation(Meepar.MOD_ID, "reinforced_stick"));
         this.setCreativeTab(CreativeTabs.MATERIALS);
         setHasSubtypes(true);
-        setMaxDamage(0);
 
     }
 
