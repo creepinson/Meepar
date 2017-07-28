@@ -1,15 +1,19 @@
 package me.creepinson.meepar;
 
 import me.creepinson.meepar.block.ModBlocks;
+import me.creepinson.meepar.entity.EntityArrowCustom;
+import me.creepinson.meepar.entity.EntityTurret;
 import me.creepinson.meepar.item.ModItems;
 import me.creepinson.meepar.tileentity.TileEntityTurret;
 import me.creepinson.meepar.util.proxy.CommonProxy;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(
@@ -37,7 +41,7 @@ public class Meepar {
 
         GameRegistry.registerTileEntity(TileEntityTurret.class, "tileentityturret");
 
-
+        proxy.init();
     }
 
 
@@ -49,9 +53,12 @@ public class Meepar {
 
         ModBlocks.init();
         ModBlocks.register();
+        EntityRegistry.registerModEntity(new ResourceLocation(Meepar.MOD_ID, "customizablearrow"), EntityArrowCustom.class, "customizable_arrow", 22, Meepar.instance,1, 1, false);
+        EntityRegistry.registerModEntity(new ResourceLocation(Meepar.MOD_ID, "turret"), EntityTurret.class, "turret", 101, Meepar.instance,1, 1, false, 0xff5000, 0x3a3a3a);
 
         proxy.registerModelBakeryStuff();
         proxy.registerRenders();
+        proxy.preInit();
 
     }
 

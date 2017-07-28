@@ -78,7 +78,7 @@ public class BlockTurretBase extends Block implements ITileEntityProvider {
                 TileEntity te = worldIn.getTileEntity(pos);
                 if (te != null && te instanceof TileEntityTurret) {
 
-                    ((TileEntityTurret) te).checkMultiBlock();
+                    ((TileEntityTurret) te).formMultiBlock(playerIn.getUniqueID());
 
                 }
             }
