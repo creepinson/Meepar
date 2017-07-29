@@ -757,3 +757,119 @@
 [09:24:21] [Server thread/TRACE] [meepar/meepar]: Sent event FMLServerStoppedEvent to mod meepar
 [09:24:21] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Meepar took 0.000s
 [09:24:21] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.002s
+[09:26:33] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerAboutToStartEvent to mod minecraft
+[09:26:33] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerAboutToStartEvent to mod minecraft
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft took 0.001s
+[09:26:33] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[09:26:33] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[09:26:33] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[09:26:33] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[09:26:33] [Server thread/TRACE] [forge/forge]: Sending event FMLServerAboutToStartEvent to mod forge
+[09:26:33] [Server thread/TRACE] [forge/forge]: Sent event FMLServerAboutToStartEvent to mod forge
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[09:26:33] [Server thread/TRACE] [meepar/meepar]: Sending event FMLServerAboutToStartEvent to mod meepar
+[09:26:33] [Server thread/TRACE] [meepar/meepar]: Sent event FMLServerAboutToStartEvent to mod meepar
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Meepar took 0.000s
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.002s
+[09:26:33] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[09:26:33] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch meepar:reinforced_stick: 4096 (init) -> 4098 (map).
+[09:26:33] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch meepar:turret_stand: 4098 (init) -> 4097 (map).
+[09:26:33] [Server thread/DEBUG] [FML/]: Fixed minecraft:items id mismatch meepar:turret_base: 4097 (init) -> 4096 (map).
+[09:26:33] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[09:26:33] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[09:26:33] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[09:26:33] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[09:26:33] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[09:26:33] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[09:26:33] [Server thread/TRACE] [forge/forge]: Sending event FMLModIdMappingEvent to mod forge
+[09:26:33] [Server thread/TRACE] [forge/forge]: Sent event FMLModIdMappingEvent to mod forge
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.034s
+[09:26:33] [Server thread/TRACE] [meepar/meepar]: Sending event FMLModIdMappingEvent to mod meepar
+[09:26:33] [Server thread/TRACE] [meepar/meepar]: Sent event FMLModIdMappingEvent to mod meepar
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Meepar took 0.001s
+[09:26:33] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.036s
+[09:26:33] [Server thread/INFO] [FML/]: Applying holder lookups
+[09:26:33] [Server thread/INFO] [FML/]: Holder lookups applied
+[09:26:33] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[09:26:33] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[09:26:33] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[09:26:33] [Server thread/INFO] [FML/]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@70253a76)
+[09:26:33] [Server thread/INFO] [FML/]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@70253a76)
+[09:26:33] [Server thread/INFO] [FML/]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@70253a76)
+[09:26:35] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStartingEvent to mod minecraft
+[09:26:35] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStartingEvent to mod minecraft
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft took 0.000s
+[09:26:35] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[09:26:35] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.001s
+[09:26:35] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[09:26:35] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[09:26:35] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStartingEvent to mod forge
+[09:26:35] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStartingEvent to mod forge
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.001s
+[09:26:35] [Server thread/TRACE] [meepar/meepar]: Sending event FMLServerStartingEvent to mod meepar
+[09:26:35] [Server thread/TRACE] [meepar/meepar]: Sent event FMLServerStartingEvent to mod meepar
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Meepar took 0.000s
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.002s
+[09:26:35] [Server thread/TRACE] [minecraft/minecraft]: Sending event FMLServerStartedEvent to mod minecraft
+[09:26:35] [Server thread/TRACE] [minecraft/minecraft]: Sent event FMLServerStartedEvent to mod minecraft
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft took 0.000s
+[09:26:35] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[09:26:35] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[09:26:35] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[09:26:35] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[09:26:35] [Server thread/TRACE] [forge/forge]: Sending event FMLServerStartedEvent to mod forge
+[09:26:35] [Server thread/TRACE] [forge/forge]: Sent event FMLServerStartedEvent to mod forge
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[09:26:35] [Server thread/TRACE] [meepar/meepar]: Sending event FMLServerStartedEvent to mod meepar
+[09:26:35] [Server thread/TRACE] [meepar/meepar]: Sent event FMLServerStartedEvent to mod meepar
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Meepar took 0.000s
+[09:26:35] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
+[09:26:35] [Netty Local Client IO #1/TRACE] [FML/]: Handshake channel activating
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: HELLO
+[09:26:35] [Netty Server IO #3/TRACE] [FML/]: Handshake channel activating
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: Server FML protocol version 2, 4 byte dimension received 0
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: $ServerHello->FMLHandshakeClientState$2:HELLO
+[09:26:35] [Netty Local Client IO #1/INFO] [FML/]: Server protocol version 2
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: Received override dimension 0
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: WAITINGSERVERDATA
+[09:26:35] [Netty Server IO #3/INFO] [FML/]: Client protocol version 2
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:5 mods->FMLHandshakeServerState$2:HELLO
+[09:26:35] [Netty Server IO #3/INFO] [FML/]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,forge@13.20.1.2425,mcp@9.19,meepar@1.0.0
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: WAITINGCACK
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: $ModList:5 mods->FMLHandshakeClientState$3:WAITINGSERVERDATA
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: PENDINGCOMPLETE
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{2}->FMLHandshakeClientState$5:PENDINGCOMPLETE
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: COMPLETE
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: COMPLETE
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$4:COMPLETE
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: DONE
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]: FMLHandshakeClientState: $HandshakeAck:{3}->FMLHandshakeClientState$6:COMPLETE
+[09:26:35] [Netty Local Client IO #1/DEBUG] [FML/]:   Next: DONE
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[09:26:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: DONE
+[09:26:35] [Netty Local Client IO #1/INFO] [FML/]: [Netty Local Client IO #1] Client side modded connection established
+[09:26:35] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[09:26:35] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[09:26:36] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[09:27:50] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[09:27:57] [Server thread/INFO] [meepar/]: Spawned Turret!
+[09:28:09] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[09:29:15] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World
+[09:29:18] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save New World

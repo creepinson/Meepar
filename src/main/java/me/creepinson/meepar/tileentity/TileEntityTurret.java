@@ -3,6 +3,7 @@ package me.creepinson.meepar.tileentity;
 import me.creepinson.meepar.block.BlockTurretBase;
 import me.creepinson.meepar.block.ModBlocks;
 import me.creepinson.meepar.entity.EntityTurret;
+import me.creepinson.meepar.util.Utils;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.tileentity.TileEntity;
@@ -47,6 +48,7 @@ public class TileEntityTurret extends TileEntity {
             getWorld().destroyBlock(pos.up(1), false);
             getWorld().destroyBlock(pos.up(2), false);
             getWorld().spawnEntity(entityTurret);
+            Utils.getLogger().info("Spawned Turret!");
 
         }
 

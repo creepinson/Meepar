@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="389c1bd4-70cf-4ab5-bb75-3cff715713ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/meepar/textures/entity/creepino.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/model/ModelCreepino.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/render/RenderCustomArmorStand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages_nether.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages_end.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/eed40018-eacf-3358-87a4-2d80ad7eb0d1.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/eed40018-eacf-3358-87a4-2d80ad7eb0d1.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/meepar/textures/entity/turret.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/meepar/textures/entity/turret.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/config/splash.properties" afterPath="$PROJECT_DIR$/run/config/splash.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-3.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/eed40018-eacf-3358-87a4-2d80ad7eb0d1.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/eed40018-eacf-3358-87a4-2d80ad7eb0d1.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usercache.json" afterPath="$PROJECT_DIR$/run/usercache.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/usernamecache.json" afterPath="$PROJECT_DIR$/run/usernamecache.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/model/ModelTurret.java" afterPath="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/model/ModelTurret.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/util/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/util/proxy/ClientProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/tileentity/TileEntityTurret.java" afterPath="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/tileentity/TileEntityTurret.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -121,10 +106,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityTurret.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EntityTurret.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/EntityTurret.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state relative-caret-position="222">
               <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,15 +119,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TileEntityTurret.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TileEntityTurret.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/creepinson/meepar/tileentity/TileEntityTurret.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="82">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1501269427000" expanded="true" signature="719:747" ph="{...}" />
-                <marker date="1501269427000" expanded="true" signature="767:796" ph="{...}" />
+                <marker date="1501345654000" expanded="true" signature="759:787" ph="{...}" />
+                <marker date="1501345654000" expanded="true" signature="807:836" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -779,7 +764,6 @@
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/render/RenderArrowCustomFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/render/RenderTurretFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/render/RenderTurret.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/tileentity/TileEntityTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/EntityTurret.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/block/BlockTurretBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/util/proxy/CommonProxy.java" />
@@ -788,6 +772,7 @@
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/util/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/render/RenderCustomArmorStand.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/model/ModelTurret.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/creepinson/meepar/tileentity/TileEntityTurret.java" />
       </list>
     </option>
   </component>
@@ -799,8 +784,8 @@
     </ignored-facets>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="23" />
+    <option name="x" value="-230" />
+    <option name="y" value="351" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
   </component>
@@ -1460,7 +1445,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="23" width="1280" height="773" extended-state="0" />
+    <frame x="-230" y="351" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1473,9 +1458,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49375" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.49375" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1872,14 +1857,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/creepinson/meepar/tileentity/TileEntityTurret.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/EntityArrowCustom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1501269427000" expanded="true" signature="719:747" ph="{...}" />
-            <marker date="1501269427000" expanded="true" signature="767:796" ph="{...}" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1895,24 +1879,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/EntityArrowCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/creepinson/meepar/entity/EntityTurret.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="222">
           <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#825#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/creepinson/meepar/tileentity/TileEntityTurret.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1501345654000" expanded="true" signature="759:787" ph="{...}" />
+            <marker date="1501345654000" expanded="true" signature="807:836" ph="{...}" />
           </folding>
         </state>
       </provider>

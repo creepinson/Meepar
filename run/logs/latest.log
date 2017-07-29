@@ -70,3 +70,32 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 [09:24:20] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
 [09:24:20] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
 [09:24:20] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:26:33] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[09:26:33] [Server thread/INFO]: Generating keypair
+[09:26:33] [Server thread/INFO]: Preparing start region for level 0
+[09:26:34] [Server thread/INFO]: Preparing spawn area: 35%
+[09:26:35] [Server thread/INFO]: Changing view distance to 4, from 10
+[09:26:35] [Server thread/INFO]: Player475[local:E:cd1f4d69] logged in with entity id 488 at (149.5385132024456, 69.0, 260.3124086341662)
+[09:26:35] [Server thread/INFO]: Player475 joined the game
+[09:26:36] [Server thread/INFO]: Saving and pausing game...
+[09:26:36] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:26:36] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:26:36] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:27:50] [Server thread/INFO]: Saving and pausing game...
+[09:27:50] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:27:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:27:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:28:09] [Server thread/INFO]: Saving and pausing game...
+[09:28:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:28:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:28:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[09:28:59] [Server thread/INFO]: <Player475> ???
+[09:28:59] [Client thread/INFO]: [CHAT] <Player475> ???
+[09:29:00] [Server thread/INFO]: <Player475> see
+[09:29:00] [Client thread/INFO]: [CHAT] <Player475> see
+[09:29:05] [Server thread/INFO]: <Player475> uhhh
+[09:29:05] [Client thread/INFO]: [CHAT] <Player475> uhhh
+[09:29:18] [Server thread/INFO]: Saving and pausing game...
+[09:29:18] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[09:29:18] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[09:29:18] [Server thread/INFO]: Saving chunks for level 'New World'/The End
