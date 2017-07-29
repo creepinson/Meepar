@@ -40,6 +40,10 @@ public class ClientProxy extends CommonProxy{
         RenderingRegistry.registerEntityRenderingHandler(EntityArrowCustom.class, RenderArrowCustomFactory.INSTANCE);
         RenderingRegistry.registerEntityRenderingHandler(EntityTurret.class, RenderTurretFactory.INSTANCE);
 
+        //CUSTOM RENDERS
+
+
+
 
     }
 
