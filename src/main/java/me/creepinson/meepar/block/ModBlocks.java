@@ -17,6 +17,7 @@ public class ModBlocks {
     //TURRET
     public static Block turretBase;
     public static Block turretStand;
+    public static Block mobChamberCore;
 
     //
 
@@ -25,17 +26,18 @@ public class ModBlocks {
 
         turretBase = new BlockTurretBase("turret_base", "turret_base");
         turretStand = new BlockTurretStand("turret_stand", "turret_stand");
-
+        mobChamberCore = new BlockMobChamberCore("mob_chamber_core", "mob_chamber_core");
     }
 
     public static void register() {
 
         registerBlock(turretBase);
         registerBlock(turretStand);
+        registerBlock(mobChamberCore);
     }
 
     public static void registerRenders() {
-
+        registerRender(mobChamberCore);
         registerRender(turretBase);
         registerRender(turretStand);
 

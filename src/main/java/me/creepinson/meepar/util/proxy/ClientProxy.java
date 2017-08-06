@@ -42,6 +42,8 @@ public class ClientProxy extends CommonProxy{
 
         //CUSTOM RENDERS
 
+//        RenderingRegistry.registerEntityRenderingHandler(EntityArmorStand.class, RenderCustomArmorStandFactory.INSTANCE);
+
 
 
 

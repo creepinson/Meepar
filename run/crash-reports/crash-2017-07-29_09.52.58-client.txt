@@ -1,0 +1,142 @@
+---- Minecraft Crash Report ----
+// But it works on my machine.
+
+Time: 7/29/17 9:52 AM
+Description: Rendering entity in world
+
+java.lang.NullPointerException: Rendering entity in world
+	at net.minecraft.client.renderer.entity.RenderLivingBase.canRenderName(RenderLivingBase.java:529)
+	at net.minecraft.client.renderer.entity.RenderLivingBase.renderName(RenderLivingBase.java:484)
+	at net.minecraft.client.renderer.entity.RenderLivingBase.renderName(RenderLivingBase.java:25)
+	at net.minecraft.client.renderer.entity.Render.doRender(Render.java:67)
+	at net.minecraft.client.renderer.entity.RenderLivingBase.doRender(RenderLivingBase.java:208)
+	at net.minecraft.client.renderer.entity.RenderLivingBase.doRender(RenderLivingBase.java:25)
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:389)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:373)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:653)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1389)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1303)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1106)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1148)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:407)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderLivingBase.canRenderName(RenderLivingBase.java:529)
+	at net.minecraft.client.renderer.entity.RenderLivingBase.renderName(RenderLivingBase.java:484)
+	at net.minecraft.client.renderer.entity.RenderLivingBase.renderName(RenderLivingBase.java:25)
+	at net.minecraft.client.renderer.entity.Render.doRender(Render.java:67)
+	at net.minecraft.client.renderer.entity.RenderLivingBase.doRender(RenderLivingBase.java:208)
+	at net.minecraft.client.renderer.entity.RenderLivingBase.doRender(RenderLivingBase.java:25)
+
+-- Entity being rendered --
+Details:
+	Entity Type: minecraft:armor_stand (net.minecraft.entity.item.EntityArmorStand)
+	Entity ID: 223
+	Entity Name: Armor Stand
+	Entity's Exact location: 138.50, 68.00, 228.50
+	Entity's Block location: World: (138,68,228), Chunk: (at 10,4,4 in 8,14; contains blocks 128,0,224 to 143,255,239), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+
+-- Renderer details --
+Details:
+	Assigned renderer: me.creepinson.meepar.entity.render.RenderCreepinoArmorStand@2d9f9b16
+	Location: 0.45,0.00,1.73 - World: (0,0,1), Chunk: (at 0,0,1 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Rotation: 130.60951
+	Delta: 0.7256084
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:389)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:373)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:653)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1389)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1303)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player528'/181, l='MpServer', x=138.05, y=68.00, z=226.77]]
+	Chunk stats: MultiplayerChunkCache: 81, 81
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (104,64,248), Chunk: (at 8,4,8 in 6,15; contains blocks 96,0,240 to 111,255,255), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 190402 game time, 7839 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 42 total; [EntityItem['item.item.seeds'/66, l='MpServer', x=148.97, y=69.00, z=260.42], EntitySkeleton['Skeleton'/68, l='MpServer', x=174.54, y=14.00, z=246.74], EntityZombie['Zombie'/69, l='MpServer', x=173.50, y=14.00, z=248.50], EntityZombie['Zombie'/70, l='MpServer', x=158.61, y=54.87, z=254.71], EntitySkeleton['Skeleton'/71, l='MpServer', x=163.28, y=55.00, z=250.53], EntityBat['Bat'/72, l='MpServer', x=162.29, y=57.10, z=264.55], EntitySkeleton['Skeleton'/77, l='MpServer', x=183.50, y=22.00, z=205.50], EntitySkeleton['Skeleton'/78, l='MpServer', x=176.50, y=14.00, z=248.50], EntityZombie['Zombie'/79, l='MpServer', x=177.50, y=14.00, z=248.50], EntityZombie['Zombie'/80, l='MpServer', x=177.50, y=14.00, z=248.50], EntityZombie['Zombie'/81, l='MpServer', x=176.50, y=14.00, z=246.50], EntityPig['Pig'/27, l='MpServer', x=109.65, y=79.00, z=245.25], EntityWolf['Wolf'/29, l='MpServer', x=126.18, y=69.00, z=204.48], EntityDonkey['Donkey'/30, l='MpServer', x=116.81, y=70.00, z=209.86], EntityZombie['Zombie'/31, l='MpServer', x=119.46, y=21.00, z=224.93], EntityArmorStand['Armor Stand'/223, l='MpServer', x=138.50, y=68.00, z=228.50], EntitySkeleton['Skeleton'/32, l='MpServer', x=126.50, y=16.00, z=251.50], EntityPig['Pig'/33, l='MpServer', x=118.67, y=79.00, z=242.80], EntityPig['Pig'/34, l='MpServer', x=109.66, y=79.00, z=244.55], EntityItem['item.item.arrow'/35, l='MpServer', x=125.88, y=79.00, z=262.13], EntityItem['item.item.bone'/36, l='MpServer', x=125.86, y=79.00, z=262.63], EntityPig['Pig'/37, l='MpServer', x=116.69, y=79.00, z=259.49], EntityPig['Pig'/38, l='MpServer', x=119.46, y=80.00, z=264.78], EntityPig['Pig'/39, l='MpServer', x=122.71, y=80.00, z=271.77], EntityWolf['Wolf'/40, l='MpServer', x=115.46, y=81.00, z=266.45], EntityWolf['Wolf'/42, l='MpServer', x=127.59, y=68.00, z=199.95], EntityBat['Bat'/43, l='MpServer', x=139.93, y=24.69, z=209.07], EntityZombie['Zombie'/45, l='MpServer', x=138.73, y=68.00, z=226.77], EntityZombie['Zombie'/46, l='MpServer', x=140.34, y=67.00, z=225.37], EntityZombie['Zombie'/48, l='MpServer', x=141.04, y=48.00, z=250.77], EntityZombie['Zombie'/49, l='MpServer', x=141.70, y=48.00, z=250.30], EntitySkeleton['Skeleton'/50, l='MpServer', x=134.53, y=48.00, z=248.78], EntityBat['Bat'/53, l='MpServer', x=144.56, y=42.08, z=262.75], EntityPlayerSP['Player528'/181, l='MpServer', x=138.05, y=68.00, z=226.77], EntityBat['Bat'/54, l='MpServer', x=147.00, y=40.89, z=263.07], EntityBat['Bat'/57, l='MpServer', x=149.25, y=54.10, z=234.25], EntityBat['Bat'/58, l='MpServer', x=146.75, y=48.10, z=230.39], EntityBat['Bat'/59, l='MpServer', x=151.25, y=47.10, z=250.75], EntitySkeleton['Skeleton'/60, l='MpServer', x=151.88, y=48.00, z=254.50], EntityCreeper['Creeper'/61, l='MpServer', x=146.81, y=56.00, z=241.39], EntityZombie['Zombie'/62, l='MpServer', x=148.72, y=47.00, z=253.53], EntityBat['Bat'/63, l='MpServer', x=155.27, y=55.72, z=248.95]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:456)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2782)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:428)
+	at net.minecraft.client.main.Main.main(Main.java:118)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
+	at GradleStart.main(GradleStart.java:26)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Mac OS X (x86_64) version 10.12.6
+	Java Version: 1.8.0_121, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 796147776 bytes (759 MB) / 1544552448 bytes (1473 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.38 Powered by Forge 13.20.1.2425 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	minecraft{1.11.2} [Minecraft] (minecraft.jar) 
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.11.2-13.20.1.2425.jar) 
+	UCHIJAAAA	forge{13.20.1.2425} [Minecraft Forge] (forgeSrc-1.11.2-13.20.1.2425.jar) 
+	UCHIJAAAA	meepar{1.0.0} [Meepar] (Meepar_main) 
+	Loaded coremods (and transformers): 
+	Launched Version: 1.11.2
+	LWJGL: 2.9.2
+	OpenGL: Intel HD Graphics 3000 OpenGL Engine GL version 2.1 INTEL-10.2.37, Intel Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i7-2620M CPU @ 2.70GHz

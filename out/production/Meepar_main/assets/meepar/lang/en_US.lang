@@ -2,3 +2,4 @@ tile.turret_base.name=Turret Base
 tile.turret_stand.name=Turret Stand
 item.reinforced_stick_tier1.name=Reinforced Stick Tier 1
 item.reinforced_stick_tier2.name=Reinforced Stick Tier 2
+tile.mob_chamber_core.name=Mob Chamber Core

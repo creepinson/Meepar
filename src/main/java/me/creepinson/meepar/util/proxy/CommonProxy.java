@@ -1,8 +1,10 @@
 package me.creepinson.meepar.util.proxy;
 
+import me.creepinson.meepar.event.EventHandlerMeepar;
 import me.creepinson.meepar.item.ModItems;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
@@ -21,7 +23,7 @@ public class CommonProxy {
 
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.reinforcedStick, 3, 0), Items.BONE, Items.IRON_INGOT, Items.STICK);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.reinforcedStick, 3, 1), Items.BONE, Items.BONE, Items.IRON_INGOT, new ItemStack(ModItems.reinforcedStick, 1, 0));
-
+        MinecraftForge.EVENT_BUS.register(new EventHandlerMeepar());
     }
 
     public void preInit(){
